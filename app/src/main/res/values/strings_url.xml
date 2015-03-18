@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="api_key_fusion_table">AIzaSyChgcO2E4VVHtLK7lQcrwJBerPAmtI80qQ</string>
+    <string name="query_url">https://www.googleapis.com/fusiontables/v1/query?</string>
+	<string name="select_query">SELECT * FROM</string>
+    <string-array name="table_ids">
+
+        <!-- GovWiFi -->
+        <item>1F4ym-v8yjj5PGRG9iU8o55AQIxfnpjM3ckUoz8rU</item>
+        <!-- Post Office -->
+        <item>1FT0g1LRfGY7emNIKX4Pd8YdjzYN08C4nrqbNTGAt</item>
+        <!-- Street Post Box -->
+        <item>1Nh8IAIataXCdm9wCdiumKZ5jvciOGU4JObUBwdr9</item>
+        <!-- 圖書館 -->
+        <item>1G4wrCcayrQho_CKYfe60ts3lX_mZitIw3Vn1e4eq</item>
+        <!-- 食物環境衞生署公廁 -->
+        <item>1sMcFaVnanRjdzt0KRjR_I4ckJ4likU9jO9YgVxh5</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="menu_categories">
+	    <item>香港政府WiFi通</item>
+	    <item>郵政局</item>
+	    <item>郵箱</item>
+	    <item>圖書館</item>
+	    <item>食物環境衞生署公廁</item>
+	</string-array>
+
+</resources>
