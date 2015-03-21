@@ -100,10 +100,10 @@ public class MapsActivity extends ActionBarActivity implements
 
 		setupActionBar();
 		prepareMap();
-		prepareInterstitalAd();
-		startTracking();
-		loadAd();
-	}
+//		prepareInterstitalAd();
+        startTracking();
+//		loadAd();
+    }
 
 	private void setupActionBar() {
 		// Set up the action bar to show a dropdown list.
@@ -278,9 +278,9 @@ public class MapsActivity extends ActionBarActivity implements
 	@Override
 	public void onSaveInstanceState(Bundle outState) {
 		// Serialize the current dropdown position.
-		outState.putInt(STATE_SELECTED_NAVIGATION_ITEM, getSupportActionBar()
-				.getSelectedNavigationIndex());
-	}
+//		outState.putInt(STATE_SELECTED_NAVIGATION_ITEM, getSupportActionBar()
+//				.getSelectedNavigationIndex());
+    }
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -399,9 +399,9 @@ public class MapsActivity extends ActionBarActivity implements
 	@Override
 	public boolean onClusterItemClick(Place place) {
 
-		if (itemClickCount++ >= 3) {
-			showInterstitalAd();
-		}
+//		if (itemClickCount++ >= 3) {
+//			showInterstitalAd();
+//		}
 
 		return false;
 	}
