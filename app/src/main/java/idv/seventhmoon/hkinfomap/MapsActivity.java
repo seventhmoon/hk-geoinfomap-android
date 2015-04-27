@@ -37,7 +37,7 @@ import idv.seventhmoon.hkinfomap.HKInfoMapApplication.TrackerName;
 
 //import com.google.analytics.tracking.android.EasyTracker;
 
-public class MapsActivity extends ActionBarActivity implements
+public class MapsActivity extends AppCompactActivity implements
 		ActionBar.OnNavigationListener,
 		ClusterManager.OnClusterItemClickListener<Place> {
 
